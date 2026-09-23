@@ -63,7 +63,7 @@
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <180>;
-            require-prior-idle-ms = <75>;
+            // require-prior-idle-ms = <75>;
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap(TP)";
         };
