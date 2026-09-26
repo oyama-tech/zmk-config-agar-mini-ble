@@ -12,6 +12,22 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        eisu {
+            bindings = <&kp INTERNATIONAL_5>;
+            key-positions = <17 16>;
+            layers = <0>;
+        };
+
+        henkan {
+            bindings = <&kp INTERNATIONAL_4>;
+            key-positions = <21 20>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
