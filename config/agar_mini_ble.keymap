@@ -26,6 +26,11 @@
             key-positions = <21 20>;
             layers = <0>;
         };
+
+        minus_underscore {
+            bindings = <&kp MINUS>;
+            key-positions = <23 22>;
+        };
     };
 
     keymap {
